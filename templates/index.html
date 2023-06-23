@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Borne Biometrique</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- owl carousel style -->
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+      <!-- fevicon -->
+      <link rel="icon" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/css/jquery.mCustomScrollbar.min.css') }}">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css') }}">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css') }}" media="screen">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-dark bg-dark">
+               <a class="logo" href="{{ url_for('home') }}"><img  title="logo entreprise" src="{{ url_for('static', filename='images/logo.png') }}"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarsExample01">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">Accueil</a>
+                        <a class="nav-link" href="#">Borne Biometrique</a>
+                        <a class="nav-link" href="#">Synchroniser donnée</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+         <!--banner section start -->
+         <div class="banner_section layout_padding">
+            <div id="my_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="taital_main">
+                                 <h3 class="banner_taital">Borne Biométrique</h>
+                                 <p class="banner_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum blanditiis vero voluptatem praesentium magni, facilis amet recusandae deleniti explicabo. Quae porro laborum voluptatibus placeat ex numquam corporis. Accusamus, debitis quibusdam.</p>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div><img src="{{ url_for('static', filename='images/emprunte.jpg') }}" class="image_1"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--banner section end -->
+      </div>
+      <!--header section end -->
+      <!--services section start -->
+      <div class="services_section layout_padding">
+            <div class="_65e52571">
+               <div class="_9fffb9c6" id="login-container">
+                 <div class="_e30ab864"><img class="_21dae779" src="https://mimo.org/assets/illustrations/login-illustration.svg"></div>
+                 <div class="_1644449">Formulaire</div>
+                 <div class="_d6611e81">
+           
+                   <div class="_d70702c3">
+                      <form action="/" method="POST">
+                        <label for="name">Adresse IP</label>
+                        <div class="_9830536">
+                          <input name="addresse_ip" id="addresse_ip" class="_9a11307b" type="text" placeholder="127.0.0.1">
+                        </div>
+                        
+                        <label for="port">Port</label>
+                        <div class="_9830536">
+                          <input name="port" id="port" class="_9a11307b" type="number" placeholder="8080">
+                        </div>
+                        
+                        <label for="password">Lieu :</label>
+                        <div class="_9830536">
+                        <select name="lieu" id="lieu" class="_9a11307b">
+                           <option value=""></option>
+                           <option value="depart">Depart</option>
+                           <option value="arrive">Arrivé</option>
+                           <!-- Ajoutez plus d'options selon vos besoins -->
+                        </select>
+                        </div>
+                        <button class="login btn-primary" id="login-button" type="submit">
+                           <a class="_6142989a">
+                             <span>ENVOYER</span>
+                           </a>
+                        </button>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+         </div>
+      </div>
+      <!--services section end -->
+      <!--footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_section_2">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <h4 class="link_text"></h4>
+                     <div class="footer_menu">
+                        <ul>
+                           <li><a href=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--client section end -->
+      <!-- Javascript files-->
+      <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/jquery-3.0.0.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/plugin.js') }}"></script>
+      <!-- sidebar -->
+      <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+      <!-- javascript --> 
+      <script src="{{ url_for('static', filename='js/owl.carousel.js') }}"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> 
+      <script type="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   </body>
+</html>

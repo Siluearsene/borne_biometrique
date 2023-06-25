@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
                             <h2>Borne <b>Details</b></h2>
                         </div>
                         <div class="col-4 btnadd">
-                            <a class="btn btn-success" data-toggle="modal">
+                            <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal">
                                 <i class="material-icons">&#xE147;</i> <span>Créer Borne</span>
                             </a>
                             <div class="search-box">
@@ -73,6 +73,47 @@
             </div>
         </div>        
     </div> 
+
+
+
+
+    <div id="addEmployeeModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">						
+                        <h4 class="modal-title">Ajouter Borne</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">					
+                        <div class="form-group">
+                            <label>Adresse IP</label>
+                            <input name="addresse_ip"type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Port</label>
+                            <input name="port" type="number" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Lieu :</label>
+                            <div class="lieuadd">
+                                <select name="lieu" id="lieu" class="addlieu">
+                                    <option value=""></option>
+                                    <option value="depart">Depart</option>
+                                    <option value="arrive">Arrivé</option>
+                                    <!-- Ajoutez plus d'options selon vos besoins -->
+                                </select>
+                            </div>
+                        </div>					
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                        <input type="submit" class="btn btn-success" value="Ajouter">
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </div>
     {%endblock%} 
     <script src="{{ url_for('static', filename='js/tooltip.js') }}"></script>   
 </body>

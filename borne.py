@@ -47,7 +47,7 @@ def home():
 def acceuil():
     return render_template('index.html')
 @app.route("/crud")
-def acceuil():
+def crud ():
     return render_template('crud.html')
 
 
@@ -62,3 +62,7 @@ db_connection = {
     'user': 'borne',
     'password': '1234'
 }
+
+
+if __name__ == "__main__":
+   app.run(debug = True )

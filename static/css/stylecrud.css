@@ -9,7 +9,7 @@ body {
 .table-wrapper {
     min-width: 1000px;
     background: #fff;
-    padding: 20px;        
+    padding: 20px 100px;        
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table-title {
@@ -20,24 +20,33 @@ body {
     margin: 8px 0 0;
     font-size: 22px;
 }
+.btnadd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .search-box {
     position: relative;        
     float: right;
+    margin-left: 10px;
 }
 .search-box input {
     height: 34px;
     border-radius: 20px;
     padding-left: 35px;
+    margin-left: 10px;
     border-color: #ddd;
     box-shadow: none;
 }
 .search-box input:focus {
+    margin-left: 10px;
     border-color: #3FBAE4;
 }
 .search-box i {
     color: #a0a5b1;
     position: absolute;
     font-size: 19px;
+    margin-left: 10px;
     top: 8px;
     left: 10px;
 }

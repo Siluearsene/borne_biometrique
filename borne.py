@@ -47,7 +47,7 @@ def home():
 def acceuil():
     return render_template('index.html')
 
-@app.route("/crud",methods=['GET', 'POST'])
+@app.route("/crud", methods=['GET', 'POST'])
 def crud():
     # Connexion à la base de données
     conn = psycopg2.connect(
@@ -58,6 +58,20 @@ def crud():
         password='1234'
     )
     cursor = conn.cursor()
+
+    if request.method == 'POST':
+        adresse_ip = request.form.get('addresse_ip')
+        port = request.form.get('port')
+        lieu = request.form.get('lieu')
+        print('kw', adresse_ip, port, lieu)
+
+        # Requête d'insertion
+        insert_query = "INSERT INTO borneregister (addresse_ip, port, lieu) VALUES (%s, %s, %s)"
+        values = (adresse_ip, port, lieu)
+
+        # Exécution de la requête d'insertion
+        cursor.execute(insert_query, values)
+        conn.commit()
 
     # Exécution d'une requête pour récupérer les données
     select_query = "SELECT * FROM borneregister"

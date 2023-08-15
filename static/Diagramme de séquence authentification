@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T23:26:56.723Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xGweBHO49OHu6RrRspH0" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T23:28:29.323Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0gFlxEKGjtPnWVGyPxWx" version="21.6.8" type="github">
   <diagram name="Page-1" id="qTSehGIO67RThEfOFbnP">
     <mxGraphModel dx="1114" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,20 +20,10 @@
           <mxGeometry x="40" y="240" width="20" height="170" as="geometry" />
         </mxCell>
         <mxCell id="kMdnjuIW7nycvqaBmw2s-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="kMdnjuIW7nycvqaBmw2s-9">
-          <mxGeometry x="55" y="250" width="10" height="60" as="geometry" />
+          <mxGeometry x="55" y="260" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kMdnjuIW7nycvqaBmw2s-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="kMdnjuIW7nycvqaBmw2s-9">
           <mxGeometry x="55" y="340" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kMdnjuIW7nycvqaBmw2s-24" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="kMdnjuIW7nycvqaBmw2s-9" source="kMdnjuIW7nycvqaBmw2s-21" target="kMdnjuIW7nycvqaBmw2s-21">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="70" y="260" as="sourcePoint" />
-            <mxPoint x="230" y="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="120" y="260" />
-              <mxPoint x="120" y="290" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="kMdnjuIW7nycvqaBmw2s-12" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -67,6 +57,12 @@
         <mxCell id="kMdnjuIW7nycvqaBmw2s-17" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Afiichage du formulaire d&#39;authenttification&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kMdnjuIW7nycvqaBmw2s-16">
           <mxGeometry x="0.1188" y="1" relative="1" as="geometry">
             <mxPoint x="29" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kMdnjuIW7nycvqaBmw2s-24" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

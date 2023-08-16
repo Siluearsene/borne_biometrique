@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T00:50:30.491Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="aLO3fz-O2exz71MLu9di" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T00:52:02.158Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5URZSYL0195haIOCAmhy" version="21.6.8" type="github">
   <diagram name="Page-1" id="ngUo1pnVJim3qT83173W">
     <mxGraphModel dx="1114" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,12 +71,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qOJFp8rp0lBa6UFPM5Xz-29" value="3: sélection du rapport à imprimer&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="530" width="210" height="30" as="geometry" />
+          <mxGeometry x="340" y="540" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qOJFp8rp0lBa6UFPM5Xz-30" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="209.25" y="560" as="sourcePoint" />
-            <mxPoint x="634.75" y="560" as="targetPoint" />
+            <mxPoint x="209.25" y="570" as="sourcePoint" />
+            <mxPoint x="634.75" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qOJFp8rp0lBa6UFPM5Xz-33" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -88,9 +88,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qOJFp8rp0lBa6UFPM5Xz-36" value="A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qOJFp8rp0lBa6UFPM5Xz-33">
-          <mxGeometry x="-0.0189" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="qOJFp8rp0lBa6UFPM5Xz-38" value="affichage du bouton d’impression" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qOJFp8rp0lBa6UFPM5Xz-33">
+          <mxGeometry x="0.0755" y="3" relative="1" as="geometry">
+            <mxPoint x="8" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T13:41:09.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FuWgsG12LxiKRMGe85e9" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T13:42:54.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IU_iqqHqni7afoJtP50o" version="21.6.8" type="github">
   <diagram name="Page-1" id="Hz1ohdUSH_Gx4iMZX8w4">
     <mxGraphModel dx="2261" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YYRi0PYZraKbrqkExKc4-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=40;" vertex="1" parent="1">
-          <mxGeometry x="170" y="80" width="50" height="610" as="geometry" />
+          <mxGeometry x="235" y="70" width="50" height="610" as="geometry" />
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="YYRi0PYZraKbrqkExKc4-1">
           <mxGeometry x="20" y="120" width="10" height="450" as="geometry" />
@@ -20,9 +20,9 @@
           <mxGeometry x="5" y="70" width="10" height="500" as="geometry" />
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="40" height="610" as="geometry" />
+          <mxGeometry x="440" y="60" width="40" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="YYRi0PYZraKbrqkExKc4-8" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="YYRi0PYZraKbrqkExKc4-5">
+        <mxCell id="YYRi0PYZraKbrqkExKc4-8" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YYRi0PYZraKbrqkExKc4-5" target="YYRi0PYZraKbrqkExKc4-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="60" y="200" as="sourcePoint" />
             <mxPoint x="190" y="200" as="targetPoint" />
@@ -32,7 +32,7 @@
           <mxGeometry x="-70" y="30" width="830" height="720" as="geometry" />
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-10" value="VueListLog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="230" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-14" value="controlDatalog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="130" width="60" height="30" as="geometry" />
@@ -42,12 +42,12 @@
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-17" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="YYRi0PYZraKbrqkExKc4-15">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="sourcePoint" />
             <mxPoint x="335" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-18" value="2.getLogPresence()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="195" y="240" width="130" height="30" as="geometry" />
+          <mxGeometry x="300" y="232.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-19" value="2.1.1.getLog(Id_employe)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="280" width="160" height="30" as="geometry" />
@@ -78,15 +78,6 @@
         <mxCell id="YYRi0PYZraKbrqkExKc4-25" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ModelDailyAttendance&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="235" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="YYRi0PYZraKbrqkExKc4-26" value="3.Openvuelistpointage()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="410" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YYRi0PYZraKbrqkExKc4-29" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="60" y="440" as="sourcePoint" />
-            <mxPoint x="320" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YYRi0PYZraKbrqkExKc4-30" value="1.Openvueform()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="170" width="110" height="30" as="geometry" />
         </mxCell>
@@ -96,7 +87,7 @@
             <mxPoint x="305" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YYRi0PYZraKbrqkExKc4-42" value="" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="YYRi0PYZraKbrqkExKc4-5">
+        <mxCell id="YYRi0PYZraKbrqkExKc4-42" value="" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="YYRi0PYZraKbrqkExKc4-5" source="YYRi0PYZraKbrqkExKc4-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="190" y="380" as="sourcePoint" />
             <mxPoint x="60" y="380" as="targetPoint" />

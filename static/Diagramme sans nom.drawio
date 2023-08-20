@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-20T00:40:23.944Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="627gJJU1Q0UpBgz9s8-W" version="21.6.8" type="github">
+<mxfile modified="2023-08-20T00:42:00.545Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="x4_XAuldp-vTFc9R3Qqa" version="21.6.8" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-28" value="Envoie de donnée Biométrique&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-29" value="Stockage Temporaire des Données biométrique&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="345" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

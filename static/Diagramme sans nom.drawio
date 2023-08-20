@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-20T00:34:40.403Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GtY1YgbutR82T-_0ySeD" version="21.6.8" type="github">
+<mxfile modified="2023-08-20T00:38:51.419Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OLQ6Gr5vUipWqUrvYq4A" version="21.6.8" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="890" y="190" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-2" value="Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="330" width="60" height="30" as="geometry" />
+          <mxGeometry x="900" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.settings_office_365;" vertex="1" parent="1">
           <mxGeometry x="570" y="340" width="31" height="31" as="geometry" />
@@ -78,6 +78,15 @@
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Demande de page d&#39;ajout de borne biométrique depuis son navigateur&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="330" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-25" value="Postresql" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" width="980" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Architecture de l&#39;application web de récupération des données de la borne biométrique en local&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="710" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

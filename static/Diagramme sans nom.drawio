@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-20T01:04:13.969Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CHIVChAgLoJ4EBpDqnqp" version="21.6.8" type="github">
+<mxfile modified="2023-08-20T01:04:28.533Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BirRUZ9GL8d18w5ENnXE" version="21.6.8" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1793" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           <mxGeometry x="910" y="320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" width="980" height="720" as="geometry" />
+          <mxGeometry x="100" y="10" width="980" height="720" as="geometry" />
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Architecture de l&#39;application web de récupération des données de la borne biométrique en local&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="20" width="710" height="30" as="geometry" />

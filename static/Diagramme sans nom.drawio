@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-20T00:59:00.594Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8VJS9hz90Pxt2ZWnaFZB" version="21.6.8" type="github">
+<mxfile modified="2023-08-20T01:00:28.043Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="peOZVmzMz6ZK8fAex3nB" version="21.6.8" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1793" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -108,6 +108,12 @@
             <mxPoint x="600" y="400" as="sourcePoint" />
             <mxPoint x="1000" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-39" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-40" value="API d&#39;envoie de donnée au modlule odoo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="375" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

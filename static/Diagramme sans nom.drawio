@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-20T00:30:29.502Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lmRjLuT8d7sI6bzLoFEH" version="21.6.8" type="github">
+<mxfile modified="2023-08-20T00:32:27.730Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hzX3uzWuhER9-kbjaPu6" version="21.6.8" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="i1IeRhXmlnAbxtGLGh6_-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Borne Biométrique&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1IeRhXmlnAbxtGLGh6_-23" value="Retourne les pages demandées&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

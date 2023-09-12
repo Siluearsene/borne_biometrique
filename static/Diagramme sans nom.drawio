@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T09:24:57.333Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XOsiNmZLH4TK3L5eLAX2" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T09:28:11.205Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HiBVWMFj9Eg79dLH7ZQo" version="21.7.4" type="github">
   <diagram name="Page-1" id="IeYRFPkhnybiy52G_f26">
     <mxGraphModel dx="2261" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="497TJWu0AYkXLw6y1hGR-2" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="-62" y="160" width="62.400000000000006" height="62.400000000000006" as="geometry" />
         </mxCell>
-        <mxCell id="497TJWu0AYkXLw6y1hGR-4" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="497TJWu0AYkXLw6y1hGR-4" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;strokeColor=#1351cd;" vertex="1" parent="1">
           <mxGeometry x="210" y="-60" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="497TJWu0AYkXLw6y1hGR-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#3B68FF;strokeWidth=3;" edge="1" parent="1" source="9CLEYDjC49h9WuTpxnef-1" target="497TJWu0AYkXLw6y1hGR-2">
